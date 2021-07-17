@@ -69,7 +69,7 @@ const Home = ({ props }) => { //try to pass down the token using props
     <div className="home">
       <Jumbotron>
         <Button onClick={() => logout()}>Logout</Button>
-        <h1 className="header">Welcome To Oauth-react</h1>
+        <h1 className="header">Welcome To React-Oauth2</h1>
         You are authenticated!
         <div>
           <p>accessToken</p>
