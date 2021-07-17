@@ -61,7 +61,6 @@ const SigninCallback = () => {
     params.append('code',code);
 
     let headers = {
-        'Access-Control-Allow-Origin': '*', 
         'Content-type': 'application/x-www-form-urlencoded',
         'Authorization': 'Basic ' + btoa(clientId+":" + client_secret)
       };

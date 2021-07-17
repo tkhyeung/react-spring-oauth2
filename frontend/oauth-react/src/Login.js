@@ -16,7 +16,7 @@ const Login = () => {
     return (
       <div className="login">
            <Jumbotron>
-                <h1 className="header">Welcome To Oauth-react</h1>
+                <h1 className="header">Welcome To React-Oauth2</h1>
                 <Button variant="primary" onClick={ () => login()}>Login</Button>
             </Jumbotron>
       </div>
